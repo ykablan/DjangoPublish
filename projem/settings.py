@@ -83,7 +83,7 @@ WSGI_APPLICATION = 'projem.wsgi.application'
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
 DEVELOPMENT_MODE = os.getenv("DEVELOPMENT_MODE", "False") == "True"
-#DEVELOPMENT_MODE = True
+DEVELOPMENT_MODE = True
 
 #DATABASE_URL = None
 
